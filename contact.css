@@ -1,0 +1,58 @@
+body.light-mode {
+    background-color: white;
+    color: black;
+    }
+    
+    body.dark-mode {
+    background-color: black;
+    color: white;
+    }
+    
+    .navbar-custom {
+    background-color: white;
+    }
+    
+    .card {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px black;
+    background-color: white; 
+    }
+    
+    body.dark-mode .card {
+    background-color: black; 
+    }
+    
+    label {
+    display: block;
+    margin: 10px 0 5px;
+    }
+    
+    input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+    body.dark-mode input,
+    body.dark-mode select,
+    body.dark-mode textarea {
+    background-color: black; 
+    }
+    
+    button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color:black;
+    }

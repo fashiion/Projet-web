@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    transition:  color 0.5s;
+}
+
+.hero {
+    
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.carousel-img {
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.card-img {
+    height: 200px; 
+    object-fit: cover; 
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: black;
+}
+
+.dark-mode .card {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: black;
+}
